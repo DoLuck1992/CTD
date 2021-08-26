@@ -1,0 +1,23 @@
+/*Exemplo de comentário*/
+/*Aplica para TODOS os elementos sem classe*/
+*{
+    color: blue;
+}
+
+body {
+    background-color: grey;
+}
+
+p {
+    color: deepskyblue;
+    font-size: 24px;
+}
+
+.texto-principal{
+    color: #d9ff00;
+    font-size: 20px;
+}
+
+#tituloPrincial{
+    color: purple;
+}
