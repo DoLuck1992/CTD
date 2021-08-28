@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cálculo IMC</title>
+</head>
+<body>
+    <h1>Cálculo IMC</h1>
+    
+    <h2>IMC é a sigla para Índice de Massa Corpórea, parâmetro adotado pela Organização Mundial de Saúde para calcular o peso ideal de cada pessoa.</h2>
+    
+    <p>O índice é calculado da seguinte maneira: divide-se o peso do paciente pela sua altura elevada ao quadrado. Diz-se que o indivíduo tem peso normal quando o resultado do IMC está entre 18,5 e 24,9.<br>Quer descobrir seu IMC? Insira seu peso e sua altura nos campos abaixo e compare com os índices da tabela. Importante: siga os exemplos e use pontos como separadores.</p>
+    
+    <button onclick="calcularImc()">Calcular IMC</button>
+
+    <script type="text/javascript">
+        //Nível I / Nível II
+        function calcularImc() {
+            var peso = prompt('Qual seu peso?');
+            var altura = prompt('Qual sua altura?');
+            var resultadoImc = peso / (altura * altura);
+            var perfilImc = resultadoImc <= 18.5 ? 'MAGREZA' :
+                            resultadoImc >= 18.5 && resultadoImc <= 24.9 ? 'NORMAL' :
+                            resultadoImc >= 25 && resultadoImc <=29.9 ? 'SOBREPESO' : 
+                            resultadoImc >=30 && resultadoImc <= 39.9 ? 'OBESIDADE':'OBESIDADE GRAVE';
+                            
+            alert(`Seu IMC é igual a: ${Math.round.resultadoImc} e sua / seu perfil é: ${perfilImc}`);
+        
+        if(resultadoImc >= 25 && resultadoImc >40){
+            alert()
+        }    
+        }
+    </script>
+</body>
+</html>

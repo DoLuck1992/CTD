@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array parte I</title>
+</head>
+<body>
+    <script>
+        //Criar a variável
+        var frutas = ["Morango", "Laranja", "Banana"];
+        //Saber quantos itens temos na variável
+        console.log(frutas.length);
+        //Acessar o valor pelo índice
+        console.log(frutas[2]);
+
+        //CRUD - Criar, ler, atualizar e deletar
+        //Adicionar/criar ao final
+        frutas.push('Abacate');
+        //Remover o último item
+        frutas.pop();
+        //Remove o primeiro
+        frutas.shift();
+        //Adicionar no primeiro item.
+        frutas.unshift('Manga');
+        //Retorna o index/posição
+        frutas.indexOf('Laranja');
+        //Atualizar valor conforme o index
+        frutas[2] = 'Pêra';
+        frutas.push('Melão');
+
+
+        //Resultado
+        console.log(frutas);
+        console.log(frutas.indexOf('Laranja'));
+    </script>
+</body>
+</html>
