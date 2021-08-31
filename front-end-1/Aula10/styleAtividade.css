@@ -1,0 +1,20 @@
+div{
+    background-image: url('https://image.winudf.com/v2/image1/Y29tLm1lbWVuZy5DYXIuQXdlc29tZURPREdFQ2hhbGxlbmdlcndhbGxwYXBlcl9zY3JlZW5fMF8xNTQzODY1OTY2XzA5MA/screen-0.jpg?fakeurl=1&type=.jpg');
+    width: 1280px;
+    height: 720px;
+    box-sizing: border-box;
+}
+
+.main-title{
+    text-align: center;
+    font-size: 80px;
+}
+
+.secondary-title{
+    text-align: center;
+    font-size: 70px;
+}
+
+.button{
+    align-self: center;
+}
