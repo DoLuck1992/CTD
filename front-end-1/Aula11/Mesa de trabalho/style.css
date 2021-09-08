@@ -1,0 +1,94 @@
+p{
+    /*text-align: center;*/
+    margin: 0;
+    left: 39px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.box1out{
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    padding: 12px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    z-index: 1;
+}
+
+.box1in{
+    background-color: aqua;
+    width: 120px;
+    height: 120px;
+    padding: 12px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: relative;
+    left: 20px;
+    bottom: -20px;
+    z-index: 10;
+}
+
+.box2out{
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    padding: 12px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    z-index: 1;
+}
+
+.box2in{
+    background-color:aqua;
+    width: 120px;
+    height: 120px;
+    padding: 12px;
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+    z-index: 10;
+}
+
+.box3out{
+    left: 50%;
+    top: 50%;
+    margin-left: -90px;
+    margin-top: -90px;
+    background-color: red;
+    width: 180px;
+    height: 180px;
+    padding: 12px;
+    border: 0px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;     
+}
+
+.box3in{
+    background-color:aqua;
+    width: 120px;
+    height: 120px;
+    padding: 12px;
+    border: 0px;
+    margin-left: -60px;
+    margin-top: -60px;
+    box-sizing: border-box;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+}
